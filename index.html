@@ -20,69 +20,81 @@
 <body>
     <div class="sidebar">
         <ul>
+            <!-- ÇELİK ÜRETİM (Genel) -->
             <li><a href="#" class="has-submenu"><i class="fa-solid fa-industry"></i> Çelik Üretim</a>
                 <ul class="submenu">
                     <li><a href="#"><i class="fa-solid fa-clipboard-list"></i> Çelikhane Sipariş Listesi</a></li>
-                    <li><a href="#"><i class="fa-solid fa-user-gear"></i> Koordinatör ve Operatör Takip</a></li>
-                    <li><a href="#"><i class="fa-solid fa-map-location-dot"></i> Döküm Konum İzleme </a></li>
+                    <li><a href="#"><i class="fa-solid fa-user-gear"></i> Koordinatör ve Operatör Takip</a> <!-- İletişim sahadaki en önemli şeydir --></li>
+                    <li><a href="#"><i class="fa-solid fa-map-location-dott"></i> Döküm Konum İzleme </a></li>
                 </ul>
             </li>
 
+            <!-- DESÜLFÜRİZASYON (Torpido Hattı) -->
+            <!-- İKON: Tren/Ray sistemi olduğu için Train Tram (Daha endüstriyel duruyor) -->
             <li><a href="#" class="has-submenu"><i class="fa-solid fa-filter"></i> Kükürt Giderme-Torpido</a>
                 <ul class="submenu">
+                    <!-- Torpido arabaları rayda gider -->
                     <li><a href="#"><i class="fa-solid fa-satellite-dish"></i> Torpido Takip </a></li>
+                    <li><a href="#"><i class="fa-solid fa-tower-cell"></i> Tesis İzleme </a></li>
                     <li>
-                        <a href="#"><i class="fa-solid fa-desktop"></i> Tesis İzleme </a>
-                    </li>
-                    <li>
-                        <a href="#" class="has-submenu"><i class="fa-solid fa-filter"></i> Kükürt Giderme</a>
+                        <!-- İKON: Kimyasal işlem yapıldığı için Flask (Erlen) -->
+                        <a href="#" class="has-submenu"><i class="fa-solid fa-flask"></i> Kükürt Giderme</a>
                         <ul class="submenu level-2">
-                            <li><a href="#"><i class="fa-solid fa-file-invoice"></i> Kükürt Giderme Raporu</a></li>
-                            <li><a href="#"><i class="fa-solid fa-chart-pie"></i> Dönemsel Tüketim Raporu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-file-contract"></i> Kükürt Giderme Raporu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-chart-line"></i> Dönemsel Tüketim Raporu</a></li>
+                            <!-- İKON: Lans ucu iğneye benzediği için şırınga -->
                             <li><a href="#"><i class="fa-solid fa-syringe"></i> Lans Takip </a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#" class="has-submenu"><i class="fa-solid fa-dungeon"></i> Torpido Çukuru</a>
                         <ul class="submenu level-2">
-                            <li><a href="#"><i class="fa-solid fa-file-contract"></i> Torpido Çukuru Rapor </a></li>
+                            <li><a href="#"><i class="fa-solid fa-file-pen"></i> Torpido Çukuru Rapor </a></li>
+                            <!-- İKON: Sıvı çelik kovası -->
                             <li><a href="#"><i class="fa-solid fa-bucket"></i> Şarj Potası İzleme </a></li>
                         </ul>
                     </li>
                 </ul>
             </li>
 
-            <li><a href="#" class="has-submenu"><i class="fa-solid fa-recycle"></i> Hurda Hazırlama Tesisi</a>
+            <!-- HURDA TESİSİ -->
+            <!-- İKON: Hurda sahasının kralı manyetik vinçtir -->
+            <li><a href="#" class="has-submenu"><i class="fa-solid fa-magnet"></i> Hurda Hazırlama Tesisi</a>
                 <ul class="submenu">
                     <li><a href="#"><i class="fa-solid fa-gears"></i> Hurda Hazırlama </a></li>
+                    <!-- İKON: Hurda konteyneri/Kova -->
                     <li><a href="#"><i class="fa-solid fa-dumpster"></i> Hurda Kovası İzleme </a></li>
-                    <li><a href="#"><i class="fa-solid fa-file-csv"></i> Hurda Hazırlama Raporu</a></li>
+                    <li><a href="#"><i class="fa-solid fa-weight-hanging"></i> Hurda Hazırlama Raporu</a></li>
                 </ul>
             </li>
 
-            <li><a href="#" class="has-submenu"><i class="fa-solid fa-atom"></i> Konverter</a>
+            <!-- KONVERTER (BOF) -->
+            <!-- İKON: Oksijen üfleme ve yüksek ateş (Bek mantığı) -->
+            <li><a href="#" class="has-submenu"><i class="fa-solid fa-fire-burner"></i> Konverter (BOF)</a>
                 <ul class="submenu">
-                    <li><a href="#"><i class="fa-solid fa-file-signature"></i> Konverter Form Raporu</a></li>
-                    <li><a href="#"><i class="fa-solid fa-fire"></i> Konverter Döküm Raporu</a></li>
+                    <li><a href="#"><i class="fa-solid fa-file-waveform"></i> Konverter Form Raporu</a></li>
+                    <!-- İKON: Erimiş metalin dökülme hissi -->
+                    <li><a href="#"><i class="fa-solid fa-fill-drip"></i> Konverter Döküm Raporu</a></li>
                     <li>
-                        <a href="#" class="has-submenu"><i class="fa-solid fa-folder-open"></i> Raporlar</a>
+                        <a href="#" class="has-submenu"><i class="fa-solid fa-folder-tree"></i> Raporlar</a>
                         <ul class="submenu level-2">
-                            <li><a href="#"><i class="fa-solid fa-calendar-days"></i> Aylık Rapor</a></li>
+                            <li><a href="#"><i class="fa-solid fa-calendar-check"></i> Aylık Rapor</a></li>
                             <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> Dönemsel Rapor</a></li>
                             <li><a href="#"><i class="fa-solid fa-gauge-high"></i> Performans Raporu</a></li>
-                            <li><a href="#"><i class="fa-solid fa-calendar-check"></i> Yıllık Döküm Raporu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-chart-column"></i> Yıllık Döküm Raporu</a></li>
                             <li><a href="#"><i class="fa-solid fa-award"></i> Yıllık Kalite Rapor</a></li>
                             <li><a href="#"><i class="fa-solid fa-bolt"></i> Yıllık Sarfiyat Rapor</a></li>
                             <li><a href="#"><i class="fa-solid fa-vial"></i> Kalite Numune Raporu</a></li>
-                            <li><a href="#"><i class="fa-solid fa-check-double"></i> Kalite Raporu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-certificate"></i> Kalite Raporu</a></li>
                             <li><a href="#"><i class="fa-solid fa-sun"></i> Günlük Rapor</a></li>
                         </ul>
                     </li>
                     <li>
+                        <!-- İKON: Karıştırma işlemi (Blender) -->
                         <a href="#" class="has-submenu"><i class="fa-solid fa-blender"></i> Paçal İşlemleri</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-shuffle"></i> Konverter Paçal </a></li>
-                            <li><a href="#"><i class="fa-solid fa-file-lines"></i> Paçal Döküm Raporu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-file-invoice"></i> Paçal Döküm Raporu</a></li>
                         </ul>
                     </li>
                     <li><a href="#"><i class="fa-solid fa-eye"></i> Şarj Potası İzleme </a></li>
@@ -90,56 +102,67 @@
                 </ul>
             </li>
 
-            <li><a href="#" class="has-submenu"><i class="fa-solid fa-flask"></i> İkincil Metalurji</a>
+            <!-- İKİNCİL METALURJİ (POTA FIRINI & VAKUM) -->
+            <!-- İKON: Laboratuvar ve analiz işleri -->
+            <li><a href="#" class="has-submenu"><i class="fa-solid fa-flask-vial"></i> İkincil Metalurji</a>
                 <ul class="submenu">
                     <li>
-                        <a href="#" class="has-submenu"><i class="fa-solid fa-temperature-high"></i> Pota Fırını</a>
+                        <!-- İKON: Elektrot arklarını temsilen Elektrik/Yıldırım -->
+                        <a href="#" class="has-submenu"><i class="fa-solid fa-bolt"></i> Pota Fırını</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-file-import"></i> Paçal Döküm Raporu</a></li>
-                            <li><a href="#"><i class="fa-solid fa-table-list"></i> Pota Fırını Form</a></li>
-                            <li><a href="#"><i class="fa-solid fa-chart-column"></i> Pota Fırını Raporu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-clipboard-check"></i> Pota Fırını Form</a></li>
+                            <li><a href="#"><i class="fa-solid fa-chart-area"></i> Pota Fırını Raporu</a></li>
                         </ul>
                     </li>
                     <li>
+                        <!-- İKON: Vakum demek emiş/hava demektir -->
                         <a href="#" class="has-submenu"><i class="fa-solid fa-wind"></i> Vakum Tesisi</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-file-pen"></i> Vakum Tesisi Form</a></li>
-                            <li><a href="#"><i class="fa-solid fa-file-waveform"></i> Vakum Tesisi Raporu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-wave-square"></i> Vakum Tesisi Raporu</a></li>
                         </ul>
                     </li>
                     <li>
+                        <!-- İKON: Tamir/Bakım -->
                         <a href="#" class="has-submenu"><i class="fa-solid fa-wrench"></i> Pota Hazırlama</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-magnifying-glass-location"></i> Çelik Pota Takip</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="has-submenu"><i class="fa-solid fa-object-group"></i> Paçal İşlemleri</a>
+                        <!-- İKON: Transfer işlemleri -->
+                        <a href="#" class="has-submenu"><i class="fa-solid fa-right-left"></i> Paçal İşlemleri</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-mortar-pestle"></i> Pota Paçal</a></li>
-                            <li><a href="#"><i class="fa-solid fa-rotate"></i> Pota Tumba</a></li>
-                            <li><a href="#"><i class="fa-solid fa-arrow-rotate-left"></i> Makineden Dönen Çelik</a></li>
+                            <li><a href="#"><i class="fa-solid fa-rotate-right"></i> Pota Tumba</a></li>
+                            <li><a href="#"><i class="fa-solid fa-rotate-left"></i> Makineden Dönen Çelik</a></li>
                             <li><a href="#"><i class="fa-solid fa-file-export"></i> Paçal Döküm Raporu</a></li>
                         </ul>
                     </li>
                 </ul>
             </li>
 
-            <li><a href="#" class="has-submenu"><i class="fa-solid fa-bars-staggered"></i> SDM</a>
+            <!-- SÜREKLİ DÖKÜM (SDM) -->
+            <!-- İKON: Kalıplardan aşağı akışı temsilen şelale/su damlası -->
+            <li><a href="#" class="has-submenu"><i class="fa-solid fa-faucet-drip"></i> SDM (Sürekli Döküm)</a>
                 <ul class="submenu">
                     <li><a href="#"><i class="fa-solid fa-triangle-exclamation"></i> Yol Kapanma Nedenleri Giriş</a></li>
                     <li><a href="#"><i class="fa-solid fa-filter"></i> Yol Kapanma Seçim</a></li>
                     <li><a href="#"><i class="fa-solid fa-list-ol"></i> Siparişleri Görüntüleme</a></li>
                     <li><a href="#"><i class="fa-solid fa-file-invoice-dollar"></i> Günlük Rapor</a></li>
-                    <li><a href="#"><i class="fa-solid fa-file-circle-check"></i> Döküm Raporu</a></li>
+                    <li><a href="#"><i class="fa-solid fa-file-contract"></i> Döküm Raporu</a></li>
                     <li><a href="#"><i class="fa-solid fa-keyboard"></i> Döküm Bazında Bilgi Girişi</a></li>
                     <li><a href="#"><i class="fa-solid fa-copy"></i> Döküm Bilgisi Kopyalama</a></li>
+                    <!-- İKON: Barkod (Kütük takibi için) -->
                     <li><a href="#"><i class="fa-solid fa-barcode"></i> Döküm/Kütük Bilgileri</a></li>
                     <li>
                         <a href="#" class="has-submenu"><i class="fa-solid fa-toolbox"></i> Ekipman Takip</a>
                         <ul class="submenu level-2">
-                            <li><a href="#"><i class="fa-solid fa-shapes"></i> SDM Kalıp Takip</a></li>
+                            <!-- İKON: Bakır kalıp şekli (Kare/Dikdörtgen) -->
+                            <li><a href="#"><i class="fa-solid fa-border-all"></i> SDM Kalıp Takip</a></li>
                             <li><a href="#"><i class="fa-solid fa-box-open"></i> Sarf Malzeme Takip</a></li>
+                            <!-- İKON: Döküm yolu (Road) -->
                             <li><a href="#"><i class="fa-solid fa-road"></i> SDM Yol Takip</a></li>
                             <li>
                                 <a href="#" class="has-submenu"><i class="fa-solid fa-vial-circle-check"></i> Test Alt Menü</a>
@@ -153,42 +176,52 @@
                 </ul>
             </li>
 
+            <!-- KALİTE KONTROL -->
+            <!-- İKON: Detaylı inceleme (Mikroskop) -->
             <li><a href="#" class="has-submenu"><i class="fa-solid fa-microscope"></i> Kalite Kontrol</a>
                 <ul class="submenu">
                     <li><a href="#"><i class="fa-solid fa-thumbs-up"></i> Kullanım Kararı İşlemleri </a></li>
                     <li><a href="#"><i class="fa-solid fa-ban"></i> Kullanım Kararı İptal</a></li>
                     <li><a href="#"><i class="fa-solid fa-check-to-slot"></i> Uygulaması Yapılmış Dökümler </a></li>
-                    <li><a href="#"><i class="fa-solid fa-eraser"></i> Taşlama Döküm Takip</a></li>
-                    <li><a href="#"><i class="fa-solid fa-flask-vial"></i> Kimyasal Analiz Bilgileri</a></li>
+                    <!-- İKON: Taş motoruna çok benziyor -->
+                    <li><a href="#"><i class="fa-solid fa-compact-disc"></i> Taşlama Döküm Takip</a></li>
+                    <li><a href="#"><i class="fa-solid fa-flask"></i> Kimyasal Analiz Bilgileri</a></li>
                     <li><a href="#"><i class="fa-solid fa-plus-minus"></i> Yarımamul Ekle/Çıkar</a></li>
                     <li><a href="#"><i class="fa-solid fa-tags"></i> Etiket Basma</a></li>
                 </ul>
             </li>
 
+            <!-- KALİTE TASARIM -->
+            <!-- İKON: Tasarım/Çizim -->
             <li><a href="#" class="has-submenu"><i class="fa-solid fa-pen-ruler"></i> Kalite Tasarım</a>
                 <ul class="submenu">
                     <li><a href="#"><i class="fa-solid fa-id-card"></i> Uygulama Kartı İşlemleri </a></li>
                     <li><a href="#"><i class="fa-solid fa-stamp"></i> Uygulama Kartı Onay </a></li>
-                    <li><a href="#"><i class="fa-solid fa-fire-burner"></i> Uygulama Kartı - Konverter </a></li>
-                    <li><a href="#"><i class="fa-solid fa-temperature-empty"></i> Uygulama Kartı - Pota Fırını </a></li>
+                    <li><a href="#"><i class="fa-solid fa-fire"></i> Uygulama Kartı - Konverter </a></li>
+                    <li><a href="#"><i class="fa-solid fa-bolt"></i> Uygulama Kartı - Pota Fırını </a></li>
                     <li><a href="#"><i class="fa-solid fa-water"></i> Uygulama Kartı - SDM </a></li>
                 </ul>
             </li>
 
-            <li><a href="#" class="has-submenu"><i class="fa-solid fa-calendar-days"></i> Üretim Planlama</a>
+            <!-- ÜRETİM PLANLAMA -->
+            <!-- İKON: Zaman çizelgesi -->
+            <li><a href="#" class="has-submenu"><i class="fa-solid fa-timeline"></i> Üretim Planlama</a>
                 <ul class="submenu">
                     <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Satış Siparişleri</a></li>
                     <li><a href="#"><i class="fa-solid fa-industry"></i> Üretim Siparişleri</a></li>
-                    <li><a href="#"><i class="fa-solid fa-network-wired"></i> Bağlantılı Döküm Emirleri</a></li>
+                    <li><a href="#"><i class="fa-solid fa-diagram-project"></i> Bağlantılı Döküm Emirleri</a></li>
                     <li><a href="#"><i class="fa-solid fa-layer-group"></i> Tandiş Kalite Bindirme</a></li>
                     <li><a href="#"><i class="fa-solid fa-triangle-exclamation"></i> Divert Yarı Mamüller </a></li>
                 </ul>
             </li>
 
-            <li><a href="#" class="has-submenu"><i class="fa-solid fa-cubes-stacked"></i> Refrakter</a>
+            <!-- REFRAKTER -->
+            <!-- İKON: Duvar örme/Tuğla malası (Refraktercilerin ana aleti) -->
+            <li><a href="#" class="has-submenu"><i class="fa-solid fa-trowel-bricks"></i> Refrakter</a>
                 <ul class="submenu">
                     <li>
-                        <a href="#" class="has-submenu"><i class="fa-solid fa-dolly"></i> Torpido İşlemleri</a>
+                        <!-- Torpido büyük bir araçtır (Truck Monster kullandım güçlü görünsün) -->
+                        <a href="#" class="has-submenu"><i class="fa-solid fa-boxes-stacked"></i> Torpido İşlemleri</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-chart-line"></i> Kampanyalar Raporu</a></li>
                         </ul>
@@ -201,7 +234,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="has-submenu"><i class="fa-solid fa-fire"></i> Konverter İşlemleri</a>
+                        <a href="#" class="has-submenu"><i class="fa-solid fa-fire-burner"></i> Konverter İşlemleri</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-tools"></i> Ekipman Takip </a></li>
                             <li><a href="#"><i class="fa-solid fa-chart-line"></i> Kampanyalar Raporu</a></li>
@@ -215,7 +248,8 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="has-submenu"><i class="fa-solid fa-trowel-bricks"></i> Tandiş İşlemleri</a>
+                        <!-- İKON: Tandiş tekneye benzer -->
+                        <a href="#" class="has-submenu"><i class="fa-solid fa-droplet"></i> Tandiş İşlemleri</a>
                         <ul class="submenu level-2">
                             <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Takip </a></li>
                             <li><a href="#"><i class="fa-solid fa-chart-line"></i> Raporu</a></li>
@@ -226,9 +260,8 @@
         </ul>
     </div>
     <div class="center-brand">
-
-    <h2>Üretim Yönetim Sistemleri<br>Başmühendisliği</h2>
-</div>
+        <h2>Üretim Yönetim Sistemleri<br>Başmühendisliği</h2>
+    </div>
 
     <script src="script.js"></script>
 </body>

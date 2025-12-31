@@ -241,3 +241,7 @@ body::before {
     border-radius: 10px;
     background: linear-gradient(90deg, #667eea, #764ba2);
 }
+
+.fa-dungeon {
+    transform: scaleY(-1);
+}
